@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+    <style>
+      .top-space{
+        margin-top: 50px;
+      }
+    </style>
+</head>
+<body>
+<div class="container top-space">
+    <div class="row">
+        <form>
+            <div class="form-group">
+                <label for="giturl">Github URL</label>
+                <input type="text" id="giturl" class="form-control" placeholder="Github URL">
+            </div>
+            <button type="submit" id="submitUrl" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div id="openIssues" >
+        <b>Github url: <span id="giturlfetched"></span></b>
+        <p id="error" class="bg-danger"></p>
+        <table class="table table-striped" id="issueListTable" style="display:none">
+            <tr><td>
+                Total number of open issues
+            </td><td>
+                <span class="badge" id="noOpenIssues"></span>
+            </td></tr>
+            <tr><td>
+                Number of open issues that were opened in the last 24 hours
+            </td><td>
+                <span class="badge" id="noYestOpenIssues"></span>
+            </td></tr>
+            <tr><td>
+                Number of open issues that were opened more than 24 hours ago but less than 7 days ago
+            </td><td>
+                <span class="badge" id="noSevendDaysOpenIssues"></span>
+            </td></tr>
+            <tr><td>
+                Number of open issues that were opened more than 7 days ago
+            </td><td>
+                <span class="badge" id="noOldOpenIssues"></span>
+            </td></tr>
+        </table>
+    </div>
+</div>
+<script type="text/javascript" src="/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/index.js"></script>
+</body>
+</html>

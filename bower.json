@@ -1,0 +1,21 @@
+{
+  "name": "gitrepodetails",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ritesh.ranjan1 <ritesh.ranjan1@nutanix.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
