@@ -27,8 +27,7 @@ c. Number of open issues that were opened more than 24 hours ago but less than 7
 d. Number of open issues that were opened more than 7 days ago.
 
 The project is currently hosted on
-https://gitopenissues.herokuapp.com/
-
+https://fathomless-hollows-93478.herokuapp.com/
 
 Libraries used
 ---------------
